@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    filter: drop-shadow(10px 8px 8px rgb(8, 27, 49));
+    background-color: rgb(21, 199, 199);
+    border: 3px solid rgb(12, 37, 83);
+    margin-left: 39.5%;
+    margin-right: 43.2%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: rgb(250, 241, 191);
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2{
+    margin-bottom: 70px;
+    margin-left: 42%;
+    color: rgb(250, 241, 191);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+}
+h3{
+    margin-bottom: 50px;
+    margin-left: 18%;
+    color: rgb(252, 184, 84);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+ul{
+    margin-left: 22%;
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: rgb(250, 241, 191);
+
+}
+img{
+    border: 5px solid rgb(197, 197, 197);
+    margin-left: 38.5%;
+}
+hr{
+    color: rgb(197, 197, 197);
+}
+a{
+    color: black;
+    border: 3px solid rgb(255, 188, 3);
+    border-radius: 20%;
+    margin-bottom: 25px;
+}
+a:hover{
+    font-size: 20px;
+    border-radius: 0%;
+    background-color: rgb(250, 241, 191);
+}
+#bg {
+    background-image:
+    linear-gradient(90deg, rgba(0,107,201,1) 0%, rgba(23,106,203,0.5368348022802871) 56%, rgba(0,212,255,0) 100%),
+    url('background.jpg');
+    background-size: 100% 100%;
+    color: white;
+    padding: 1px;
+}
